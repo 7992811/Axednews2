@@ -1,0 +1,51 @@
+{
+  "include_keywords": [
+    "ставка",
+    "инфляция",
+    "офз",
+    "облигации",
+    "доходность",
+    "цб",
+    "санкции",
+    "ipo",
+    "дивиденды",
+    "выручка",
+    "прибыль",
+    "EBITDA",
+    "guidance",
+    "рубль",
+    "usd/rub",
+    "нефть",
+    "газ",
+    "uranium",
+    "AI",
+    "semiconductor",
+    "гособлигации",
+    "регулятор",
+    "Moex",
+    "финансовые результаты"
+  ],
+  "exclude_keywords": [
+    "гороскоп",
+    "шоу-бизнес",
+    "слухи",
+    "фейк",
+    "гадания",
+    "сплетни"
+  ],
+  "language_allowlist": [
+    "ru",
+    "en"
+  ],
+  "hours_window": {
+    "start": 8,
+    "end": 23
+  },
+  "min_seconds_between_posts": 180,
+  "max_posts_per_day": 60,
+  "score": {
+    "keyword_hit": 2.0,
+    "priority_weight": 1.0,
+    "min_score_to_post": 2.0
+  }
+}

@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: axed-news-2-0
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    autoDeploy: true
